@@ -14,7 +14,11 @@
 
 body{
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
     line-height:1.8;
+    align-items: center;
+    min-height: 100vh;
     color:#333;
     background:#f8f9fa;
 }
@@ -27,6 +31,65 @@ body{
     border-radius:8px;
     box-shadow:0 2px 10px rgba(0,0,0,0.08);
 }
+     .cta-section {
+        width: 100%;
+        max-width: 1300px;
+        background: #f5f5f5;
+        padding: 70px 30px;
+        text-align: center;
+    }
+
+    .cta-section h2 {
+        font-size: 52px;
+        color: #2563eb;
+        margin-bottom: 25px;
+        font-weight: 700;
+    }
+
+    .divider {
+        width: 100%;
+        height: 1px;
+        background: #d6dce5;
+        margin-bottom: 35px;
+    }
+
+    .cta-section p {
+        font-size: 22px;
+        color: #3f4c5f;
+        max-width: 1100px;
+        margin: 0 auto 45px;
+        line-height: 1.6;
+    }
+
+    .cta-btn {
+        display: inline-block;
+        background: #2f63e0;
+        color: #fff;
+        text-decoration: none;
+        padding: 18px 42px;
+        border-radius: 8px;
+        font-size: 26px;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+
+    .cta-btn:hover {
+        background: #1f4fc2;
+    }
+
+    @media (max-width: 768px) {
+        .cta-section h2 {
+            font-size: 36px;
+        }
+
+        .cta-section p {
+            font-size: 18px;
+        }
+
+        .cta-btn {
+            font-size: 20px;
+            padding: 15px 35px;
+        }
 
 h1{
     font-size:36px;
@@ -75,6 +138,18 @@ strong{
 </style>
 </head>
 <body>
+    <section class="cta-section">
+    <h2>Add Your Website</h2>
+
+    <div class="divider"></div>
+
+    <p>
+        Want to add your guest post marketplace to our list?
+        Contact us today and promote your website to thousands of users.
+    </p>
+
+    <a href="https://api.whatsapp.com/send/?phone=919023350834&text=Hello%21+I+visited+your+website+https%3A%2F%2Fguest-posting-sites.com%2F+and+would+like+to+know+more.&type=phone_number&app_absent=0" class="cta-btn">Contact Us</a>
+</section>
 
 <div class="container">
 
